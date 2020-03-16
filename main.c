@@ -20,6 +20,14 @@ int power2(int n) {
     return 1 << n;
 }
 
+int exp(int a, int n) {
+    int tmp = a;
+    for(int i = 1; i < n; i++) {
+        a = a * tmp;
+    }
+    return tmp;
+}
+
 int main (void) {
     return 0;
 }
