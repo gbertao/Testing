@@ -16,6 +16,10 @@ int div(int a, int b) {
     return a/b;
 }
 
+int power2(int n) {
+    return 1 << n;
+}
+
 int main (void) {
     return 0;
 }
